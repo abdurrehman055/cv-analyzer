@@ -1,0 +1,75 @@
+/* Hero */
+.hero-section {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 60%, #0f3460 100%);
+  color: white;
+}
+
+.hero-section .lead {
+  color: #adb5bd !important;
+}
+
+/* Loading Overlay */
+#loadingOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Score Circle */
+.score-circle {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: white;
+  position: relative;
+}
+
+.score-denom {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 2px;
+  opacity: 0.85;
+}
+
+.score-high  { background: #198754; }
+.score-mid   { background: #ffc107; color: #212529; }
+.score-low   { background: #dc3545; }
+
+/* Upload Area */
+.upload-area {
+  border: 2px dashed #ced4da;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.upload-area:hover,
+.upload-area.drag-over {
+  border-color: #212529;
+  background: #f8f9fa;
+}
+
+/* Card header consistency */
+.card-header {
+  font-size: 0.95rem;
+}
+
+/* Skill badges slightly larger */
+.badge.fs-6 {
+  font-size: 0.8rem !important;
+}
