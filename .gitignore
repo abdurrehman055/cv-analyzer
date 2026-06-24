@@ -1,0 +1,25 @@
+# Environment variables — never commit your API keys
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment folders
+venv/
+.venv/
+env/
+
+# SQLite database file — contains user data
+*.db
+
+# Uploaded files (if you add a temp upload folder later)
+uploads/
+
+# VS Code settings
+.vscode/
+
+# OS junk files
+.DS_Store
+Thumbs.db
